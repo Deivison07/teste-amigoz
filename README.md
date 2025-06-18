@@ -1,4 +1,4 @@
-# 🚀 Desafio Cotação - API Assíncrona
+# Desafio Cotação - API Assíncrona
 
 API RESTful totalmente assíncrona construída com **FastAPI**, utilizando **Pydantic**, **SQLAlchemy**, **aiosqlite** e servida por **Uvicorn**.
 
@@ -65,11 +65,14 @@ Interface Swagger automática com toda a documentação da API.
 # Crie e acesse o diretório do projeto
 mkdir teste-amigoz
 cd teste-amigoz
+```
 
 # Clone o repositório
+```bash
 sudo git clone https://github.com/Deivison07/teste-amigoz.git
-
+```
 # Execute com Docker Compose
+```bash
 sudo docker-compose up --build
 ```
 
