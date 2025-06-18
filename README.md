@@ -13,6 +13,7 @@ Este projeto é uma API RESTful totalmente assíncrona construída com **FastAPI
 - [Uvicorn](https://www.uvicorn.org/) - Server ASGI rápido e leve  
 
 ---
+## Padrão de projeto usado (Factory)
 
 ## Endpoints
 
