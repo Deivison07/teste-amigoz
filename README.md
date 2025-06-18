@@ -17,7 +17,8 @@ API RESTful totalmente assíncrona construída com **FastAPI**, utilizando **Pyd
 ## 🧱 Padrão de Projeto
 
 - 🏗 **Factory Pattern** para inicialização desacoplada e flexível dos componentes da aplicação.
-
+![Diagrama Arquitetural](diagrama.png)
+- cada classe factory retornatá um objeto criado respectivo ao seu tipo para posterior comparação
 ---
 
 ## 📌 Endpoints
