@@ -66,13 +66,12 @@ Interface Swagger automática com toda a documentação da API.
 mkdir teste-amigoz
 cd teste-amigoz
 ```
-
-# Clone o repositório
 ```bash
+# Clone o repositório
 sudo git clone https://github.com/Deivison07/teste-amigoz.git
 ```
-# Execute com Docker Compose
 ```bash
+# Execute com Docker Compose
 sudo docker-compose up --build
 ```
 
