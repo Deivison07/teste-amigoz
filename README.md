@@ -56,6 +56,15 @@ Documentação automática da API gerada pelo FastAPI (Swagger UI).
  - Para construir e subir o projeto localmente:
 
 ```bash
+mkdir teste-amigoz
+```
+```bash
+cd teste-amigoz
+```
+```bash
+sudo git clone https://github.com/Deivison07/teste-amigoz.git
+```
+```bash
 sudo docker-compose up --build
 ```
 
