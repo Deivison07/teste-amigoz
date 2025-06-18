@@ -53,7 +53,7 @@ Documentação automática da API gerada pelo FastAPI (Swagger UI).
   
 ### Rodando localmente com Docker Compose
 
-Para construir e subir o projeto localmente:
+ - Para construir e subir o projeto localmente:
 
 ```bash
 sudo docker-compose up --build
@@ -78,7 +78,7 @@ sudo docker run -p 3000:3000 --rm --network=host --name desafio-cotacoes deiviso
 
 ## Contato
 
-Para dúvidas ou contribuições, abra uma issue ou entre em contato com o desenvolvedor.
+- Para dúvidas ou contribuições, abra uma issue ou entre em contato com o desenvolvedor.
 
 ---
 
