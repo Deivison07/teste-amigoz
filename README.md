@@ -24,12 +24,13 @@ API RESTful totalmente assíncrona construída com **FastAPI**, utilizando **Pyd
 ## 📌 Endpoints
 
 ### 🔍 `GET /cotacao`
-
+- http://localhost:8001/cotacao
 Obtém a menor cotação entre diversas fontes externas.  
 **Parâmetros:** Nenhum  
 **Resposta:** JSON com a menor cotação.
 
 ### 📬 `POST /callback`
+- http://localhost:8001/callback
 
 Recebe dados de callback com identificador da requisição e payload adicional.
 
@@ -46,7 +47,7 @@ Recebe dados de callback com identificador da requisição e payload adicional.
 - `data`: JSON genérico  
 
 ### 📄 `GET /docs`
-
+- http://localhost:8001/docs
 Interface Swagger automática com toda a documentação da API.
 
 ---
@@ -80,7 +81,7 @@ sudo docker-compose up --build
 ## ℹ️ Observações
 
 - A aplicação é **100% assíncrona**, garantindo melhor desempenho em operações I/O.
-- A documentação da API está disponível em: `http://localhost:3000/docs`
+- A documentação da API está disponível em: `http://localhost:8001/docs`
 
 ---
 
