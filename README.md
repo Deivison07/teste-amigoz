@@ -15,6 +15,7 @@ Este projeto é uma API RESTful totalmente assíncrona construída com **FastAPI
 ---
 ## Padrão de projeto usado (Factory)
 
+
 ## Endpoints
 
 ### `GET /cotacao`
@@ -47,7 +48,9 @@ Documentação automática da API gerada pelo FastAPI (Swagger UI).
 ---
 
 ## Como usar
-
+### Requisitos
+- Ter o **Docker** instalado na sua máquina para rodar os containers.
+  
 ### Rodando localmente com Docker Compose
 
 Para construir e subir o projeto localmente:
