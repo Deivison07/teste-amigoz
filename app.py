@@ -18,7 +18,7 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(lifespan=lifespan,
-    title="Documentação ",
+    title="Documentação",
     description="Consulta cotações de moedas (Dólar, Euro e Libra)",
     version="1.0.0",
     contact={
