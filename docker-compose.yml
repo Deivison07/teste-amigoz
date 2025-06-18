@@ -1,0 +1,26 @@
+version: "3.9"
+
+services:
+  fastapi-app:
+    build:
+      context: .
+      dockerfile: dockerfile
+    container_name: fastapi_app
+    ports:
+      - "8001:8001"
+    depends_on:
+      - desafiocotacoes
+    networks:
+      - backend
+
+  desafiocotacoes:
+    image: mostela/desafiocotacoes:latest
+    container_name: desafiocotacoes_service
+    ports:
+      - "3000:3000"
+    networks:
+      - backend
+
+networks:
+  backend:
+    driver: bridge
