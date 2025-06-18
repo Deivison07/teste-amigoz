@@ -77,14 +77,6 @@ sudo docker-compose up --build
 
 ---
 
-### 🐳 Usando a imagem do Docker Hub
-
-```bash
-sudo docker run -p 3000:3000 --rm --network=host --name desafio-cotacoes deivisonalc/teste-amigoz
-```
-
----
-
 ## ℹ️ Observações
 
 - A aplicação é **100% assíncrona**, garantindo melhor desempenho em operações I/O.
