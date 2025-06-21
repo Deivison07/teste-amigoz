@@ -69,7 +69,7 @@ cd teste-amigoz
 ```
 ```bash
 # Clone o repositório
-sudo git clone https://github.com/Deivison07/teste-amigoz.git
+sudo git clone https://github.com/Deivison07/teste-amigoz.git .
 ```
 ```bash
 # Execute com Docker Compose
