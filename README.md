@@ -24,7 +24,7 @@ API RESTful totalmente assíncrona construída com **FastAPI**, utilizando **Pyd
 ## 📌 Endpoints
 
 ### 🔍 `GET /cotacoes`
-- http://localhost:8001/cotacao
+- http://localhost:8001/cotacoes
 Obtém a menor cotação entre diversas fontes externas.  
 **Parâmetros:** Nenhum  
 **Resposta:** JSON com a menor cotação.
