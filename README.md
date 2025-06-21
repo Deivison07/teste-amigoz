@@ -4,24 +4,25 @@ API RESTful totalmente assíncrona construída com **FastAPI**, utilizando **Pyd
 
 ---
 
-## 🛠 Tecnologias Utilizadas
+### 🛠 Tecnologias Utilizadas
 
 - ⚡ [FastAPI](https://fastapi.tiangolo.com/) — Framework web assíncrono  
 - 📦 [Pydantic](https://pydantic.dev/) — Validação de dados  
 - 🗃 [SQLAlchemy](https://www.sqlalchemy.org/) — ORM  
 - 🔄 [aiosqlite](https://github.com/jreese/aiosqlite) — Driver assíncrono para SQLite  
 - 🚀 [Uvicorn](https://www.uvicorn.org/) — Servidor ASGI leve  
+- 🧪 [Locust] (https://locust.io/) — Teste de Carga
 
 ---
 
-## 🧱 Padrão de Projeto
+### 🧱 Padrão de Projeto
 
 - 🏗 **Factory Pattern** para inicialização desacoplada e flexível dos componentes da aplicação.
 ![Diagrama Arquitetural](diagrama.png)
 - cada classe factory retornatá um objeto criado respectivo ao seu tipo para posterior comparação
 ---
 
-## 📌 Endpoints
+### 📌 Endpoints
 
 ### 🔍 `GET /cotacoes`
 - http://localhost:8001/cotacoes
@@ -52,7 +53,7 @@ Interface Swagger automática com toda a documentação da API.
 
 ---
 
-## ▶️ Como Usar
+### ▶️ Como Usar
 
 ### ✅ Requisitos
 
@@ -85,6 +86,34 @@ sudo docker-compose up --build
 
 ---
 
+### Teste de Carga com Locust
+- A aplicação inclui testes de carga e desempenho utilizando o Locust. O script está localizado em:
+
+```bash
+./teste/locustfile.py
+```
+- Esse script simula múltiplos usuários acessando os endpoints da API, avaliando tempo de resposta, taxa de requisição e resistência.
+
+#### Instalação do Locust
+
+```bash
+pip install locust
+```
+- Ou com ambiente virtual:
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install locust
+```
+
+#### Executando o Teste
+
+- Eecute o Locust no diretório do projeto
+```bash
+locust -f ./teste/locustfile.py
+```
+--- 
 ## 🤝 Contato
 
 Para dúvidas ou contribuições:
