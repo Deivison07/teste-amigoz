@@ -11,7 +11,7 @@ API RESTful totalmente assíncrona construída com **FastAPI**, utilizando **Pyd
 - 🗃 [SQLAlchemy](https://www.sqlalchemy.org/) — ORM  
 - 🔄 [aiosqlite](https://github.com/jreese/aiosqlite) — Driver assíncrono para SQLite  
 - 🚀 [Uvicorn](https://www.uvicorn.org/) — Servidor ASGI leve  
-- 🧪 [Locust] (https://locust.io/) — Teste de Carga
+- 🧪 [Locust](https://locust.io/) — Teste de Carga
 
 ---
 
@@ -109,7 +109,7 @@ pip install locust
 
 #### Executando o Teste
 
-- Eecute o Locust no diretório do projeto
+- Execute o Locust no diretório do projeto
 ```bash
 locust -f ./teste/locustfile.py
 ```
