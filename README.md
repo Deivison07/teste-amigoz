@@ -4,7 +4,7 @@ API RESTful totalmente assíncrona construída com **FastAPI**, utilizando **Pyd
 
 ---
 
-### 🛠 Tecnologias Utilizadas
+#### 🛠 Tecnologias Utilizadas
 
 - ⚡ [FastAPI](https://fastapi.tiangolo.com/) — Framework web assíncrono  
 - 📦 [Pydantic](https://pydantic.dev/) — Validação de dados  
@@ -15,7 +15,7 @@ API RESTful totalmente assíncrona construída com **FastAPI**, utilizando **Pyd
 
 ---
 
-### 🧱 Padrão de Projeto
+#### 🧱 Padrão de Projeto
 
 - 🏗 **Factory Pattern** para inicialização desacoplada e flexível dos componentes da aplicação.
 ![Diagrama Arquitetural](diagrama.png)
@@ -24,13 +24,13 @@ API RESTful totalmente assíncrona construída com **FastAPI**, utilizando **Pyd
 
 ### 📌 Endpoints
 
-### 🔍 `GET /cotacoes`
+#### 🔍 `GET /cotacoes`
 - http://localhost:8001/cotacoes
 Obtém a menor cotação entre diversas fontes externas.  
 **Parâmetros:** Nenhum  
 **Resposta:** JSON com a menor cotação.
 
-### 📬 `POST /callback`
+#### 📬 `POST /callback`
 - http://localhost:8001/callback
 
 Recebe dados de callback com identificador da requisição e payload adicional.
@@ -47,7 +47,7 @@ Recebe dados de callback com identificador da requisição e payload adicional.
 - `request_id`: UUID  
 - `data`: JSON genérico  
 
-### 📄 `GET /docs`
+#### 📄 `GET /docs`
 - http://localhost:8001/docs
 Interface Swagger automática com toda a documentação da API.
 
@@ -55,13 +55,13 @@ Interface Swagger automática com toda a documentação da API.
 
 ### ▶️ Como Usar
 
-### ✅ Requisitos
+#### ✅ Requisitos
 
 - Docker instalado na máquina
 
 ---
 
-### 💻 Rodando localmente com Docker Compose
+#### 💻 Rodando localmente com Docker Compose
 
 ```bash
 # Crie e acesse o diretório do projeto
@@ -79,7 +79,7 @@ sudo docker-compose up --build
 
 ---
 
-## ℹ️ Observações
+### ℹ️ Observações
 
 - A aplicação é **100% assíncrona**, garantindo melhor desempenho em operações I/O.
 - A documentação da API está disponível em: `http://localhost:8001/docs`
@@ -114,7 +114,7 @@ pip install locust
 locust -f ./teste/locustfile.py
 ```
 --- 
-## 🤝 Contato
+### 🤝 Contato
 
 Para dúvidas ou contribuições:
 
