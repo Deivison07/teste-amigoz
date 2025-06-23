@@ -113,6 +113,9 @@ pip install locust
 ```bash
 locust -f ./teste/locustfile.py
 ```
+- Teste com 20 usuários simultâneos
+![Teste de carga 20 users](total_requests_per_second.png)
+
 --- 
 ### 🤝 Contato
 
